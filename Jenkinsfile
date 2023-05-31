@@ -7,7 +7,7 @@ pipeline
         {
              steps
              {
-             git branch: 'main', url: 'https://github.com/nocturnaldevops/Project1.git'
+             git branch: 'main', url: 'https://github.com/nocturnaldevops/Projectnew.git'
               }
           }
         stage("contbuild")
