@@ -39,4 +39,11 @@ pipeline
               }
           }
       }
+      post 
+      {
+      failure
+      {
+      mail bcc: '', body: 'Project failed', cc: 'nocturnaldevops@gmail.com', from: '', replyTo: '', subject: 'Project Failed', to: 'projects2488@gmail.com'
+      }
+      }
 }
